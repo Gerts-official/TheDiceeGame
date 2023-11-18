@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+}
+.container{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.main{
+    display: flex;
+
+
+}
+
+.dicee{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+button{
+    font-size: 30px;
+}
+
+h1, .header{
+    font-size:200px;
+    font-family: 'Brush Script MT', cursive;
+    color:brown;
+    margin:5px;
+
+}
+h2{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+button.pushed {
+    transform: translateY(5px);
+    box-shadow: 0 2px 4px rgba(37, 184, 26, 0.2);
+}
